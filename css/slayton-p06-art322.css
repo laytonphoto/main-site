@@ -1227,7 +1227,7 @@
 }
 
 .div-block-91 {
-  max-width: 35%;
+  max-width: 40%;
 }
 
 .container-10 {
@@ -1238,6 +1238,10 @@
 
 .section-11 {
   margin-bottom: 100px;
+}
+
+.image-17 {
+  box-shadow: 0 0 10px #0003;
 }
 
 @media screen and (max-width: 991px) {
