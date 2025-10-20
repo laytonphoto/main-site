@@ -1782,14 +1782,9 @@
     margin-top: 20px;
   }
 
-  .brand-2 {
+  .brand-2, .brand-2.w--current {
     max-width: 7.6rem;
-    padding-right: 10px;
-  }
-
-  .brand-2.w--current {
-    max-width: 7.6rem;
-    margin-left: 0;
+    margin-left: 8px;
     padding-right: 10px;
   }
 
