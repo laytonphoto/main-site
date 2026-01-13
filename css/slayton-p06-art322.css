@@ -291,6 +291,10 @@
   margin-top: 115px;
 }
 
+.section.filmtop.revery {
+  flex-flow: row;
+}
+
 .section.bottom {
   margin-bottom: 100px;
 }
@@ -709,6 +713,21 @@
   padding-bottom: 15px;
 }
 
+.container-5.bottom.revery {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-flow: column;
+  order: 0;
+  justify-content: flex-start;
+  align-self: auto;
+  align-items: center;
+  min-width: 85%;
+  max-width: 85%;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .container-5.toppytop {
   grid-column-gap: 17px;
   grid-row-gap: 17px;
@@ -731,8 +750,13 @@
 }
 
 .div-block-5 {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+  align-items: flex-start;
   min-width: 55%;
   max-width: 100%;
+  display: flex;
 }
 
 .div-block-5.topblock {
@@ -765,9 +789,11 @@
 }
 
 .div-block-89 {
-  width: 100%;
-  min-width: 50%;
-  max-width: 100%;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 65%;
+  display: flex;
 }
 
 .div-block-89.top {
@@ -1100,6 +1126,13 @@
   display: flex;
 }
 
+.container-6.vert {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-flow: column;
+  max-width: 50%;
+}
+
 .heading-4 {
   text-align: left;
   min-width: 312px;
@@ -1130,7 +1163,7 @@
 .slider {
   justify-content: center;
   align-items: center;
-  max-width: 46%;
+  max-width: 85%;
   height: 86%;
   display: flex;
   box-shadow: 0 2px 5px #0003;
@@ -1176,7 +1209,9 @@
 }
 
 .div-block-8 {
+  flex-flow: column;
   align-self: flex-start;
+  display: flex;
 }
 
 .button {
@@ -1210,8 +1245,15 @@
   color: #000;
 }
 
-.section-6.bottom {
+.section-6.top {
   margin-bottom: 100px;
+}
+
+.section-6.top.vert {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: block;
 }
 
 .paragraph-5, .list-item, .list-item-2, .list-item-3, .list-item-4, .list-item-5, .list-item-6, .list-item-7 {
@@ -1348,6 +1390,27 @@
   padding-bottom: 60px;
 }
 
+.background-video-2 {
+  box-sizing: border-box;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+}
+
+.reveryvid {
+  min-width: 85%;
+  max-width: 85%;
+}
+
+.youtube-6 {
+  min-width: 100%;
+  margin-top: 0;
+}
+
+.video-3 {
+  aspect-ratio: 3 / 2;
+  max-width: 85%;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     flex-flow: column;
@@ -1444,9 +1507,9 @@
   }
 
   .container-5 {
-    flex-flow: row;
+    flex-flow: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .container-5.bottom {
@@ -1500,9 +1563,37 @@
     min-width: 36.7rem;
   }
 
-  .paragraph-2, .paragraph-3, .paragraph-4 {
+  .paragraph-2 {
     font-size: 20px;
     line-height: 23px;
+  }
+
+  .container-6.vert {
+    flex-flow: column;
+    justify-content: center;
+    align-self: auto;
+    align-items: center;
+    max-width: 85%;
+  }
+
+  .slider {
+    max-width: 95%;
+  }
+
+  .div-block-8 {
+    align-self: flex-start;
+  }
+
+  .paragraph-3, .paragraph-4 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .section-6.top.vert {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
   }
 
   .image-16 {
@@ -1717,24 +1808,29 @@
 
   .container-6.vert {
     flex-flow: column;
+    justify-content: center;
+    align-self: auto;
+    align-items: center;
+    max-width: 85%;
     margin-top: 0;
   }
 
   .slider {
-    max-width: 75%;
+    max-width: 95%;
   }
 
   .div-block-8 {
     justify-content: center;
-    align-self: center;
+    align-self: flex-start;
     align-items: flex-end;
     display: block;
   }
 
-  .section-6.bottom.vert {
+  .section-6.top.vert {
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 115px;
     display: flex;
   }
 
@@ -1904,6 +2000,11 @@
     max-width: 83%;
   }
 
+  .container-5.bottom.revery {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
   .container-5.toppytop {
     min-width: 90%;
     max-width: 95%;
@@ -1964,14 +2065,18 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    max-width: 85%;
   }
 
   .heading-4 {
-    min-width: 75%;
+    min-width: 100%;
+    max-width: 100%;
   }
 
   .slider {
-    max-width: 75%;
+    order: 0;
+    align-self: auto;
+    max-width: 100%;
   }
 
   .div-block-7 {
@@ -1982,7 +2087,7 @@
   .div-block-8 {
     text-align: left;
     flex: 0 auto;
-    align-self: center;
+    align-self: flex-start;
     max-width: 75%;
   }
 
