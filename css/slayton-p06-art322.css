@@ -295,6 +295,13 @@
   flex-flow: row;
 }
 
+.section.filmtop.title {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .section.bottom {
   margin-bottom: 100px;
 }
@@ -704,6 +711,20 @@
   margin-bottom: 30px;
 }
 
+.container-5.top.title5 {
+  flex-flow: row;
+  justify-content: center;
+  align-self: auto;
+  align-items: center;
+  min-width: 65px;
+  max-width: 65%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  display: flex;
+}
+
 .container-5.bottom {
   flex-flow: row;
   justify-content: center;
@@ -772,6 +793,18 @@
   display: flex;
 }
 
+.div-block-5.title {
+  grid-column-gap: 18px;
+  grid-row-gap: 18px;
+  order: 0;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: flex-start;
+  min-width: 100%;
+  max-width: 100%;
+  display: flex;
+}
+
 .heading-3 {
   color: #000;
   justify-content: flex-start;
@@ -782,6 +815,11 @@
   font-family: Postnobillscolombo, Arial, sans-serif;
   font-weight: 400;
   display: flex;
+}
+
+.heading-3.title8 {
+  margin-top: 15px;
+  font-size: 65px;
 }
 
 .youtube-4 {
@@ -1408,6 +1446,8 @@
 
 .video-3 {
   aspect-ratio: 3 / 2;
+  order: 0;
+  align-self: center;
   max-width: 85%;
 }
 
@@ -1994,6 +2034,14 @@
     max-width: 83%;
   }
 
+  .container-5.top.title5 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    min-width: 80px;
+    max-width: 80%;
+    margin-bottom: 0;
+  }
+
   .container-5.bottom {
     grid-column-gap: 17px;
     grid-row-gap: 17px;
@@ -2024,6 +2072,21 @@
   .heading-3 {
     width: auto;
     font-size: 27px;
+  }
+
+  .heading-3.title8 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: left;
+    letter-spacing: normal;
+    white-space: normal;
+    flex-flow: column;
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    margin-top: 0;
+    line-height: 61px;
+    display: flex;
   }
 
   .div-block-89.top {
@@ -2134,6 +2197,11 @@
 
 #w-node-_19f36b6d-09c3-ad0f-e6ea-0df6ec1ada20-9c5d7c65 {
   grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_7c1520bc-376d-1d59-e124-b343b3392dc0-b421d77a {
+  grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
 }
 
